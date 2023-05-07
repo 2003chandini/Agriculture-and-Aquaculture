@@ -1,0 +1,161 @@
+
+<html lang="en">
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background: #111;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .services{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container .services .card{
+    width: 330px;
+    text-align: center;
+    background: #222;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .services .card:hover{
+    background: chocolate;
+}
+
+.container .services .card .content{
+    transition: 0.3s;
+}
+
+.container .services .card:hover .content{
+    transform: scale(1.07);
+}
+
+.container .services .card .content .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+.container .services .card .content .icon i{
+    font-size: 40px;
+}
+
+.container .services .card:hover .content .title{
+    color: white;
+}
+
+.container .services .card .content .title{
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: chocolate;
+    transition: 0.3s;
+}
+  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Our Services</title>
+</head>
+<body>
+
+    <div class="container">
+        <title>Our Services</title><br>
+        <h2>Our Services</h2>
+        <section class="services">
+            <div class="card">
+                <div class="content">
+                    <div class="title">Coffee bean Harvester</div>
+                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Coffee_Harvester_Mareeba.JPG" height="150" alt="" />
+                    <p>Attached to the columns are hundreds of picking rods, which vibrate and oscillate as the weights on top rotate.</p>
+
+            <a href = "/buynow"><button>Buy Now</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                     <div class="title">Tomato Harvester</div>
+                     <img src="https://img.agriexpo.online/images_ag/photo-m2/170706-11646651.jpg" height="150" alt="" />
+                    <p>The product is used for mechanized harvesting of processing tomato. It integrates various functions including cutting, shaking etc...</p>
+
+            <a href = "/buynow"><button>Buy Now</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                   <div class="title">Roto Seed Drill</div>
+                     <img src="https://images.tractorgyan.com/uploads/26678/62d65c31eb17b_roto-seed-drill-500x500.webp" height="150" alt="" />
+                    <p>Roto Seed Drill, which combines a Rotary Tiller and a Seed Drill. It is employed practically everywhere in India to sow grass seeds as well as wheat and barley seeds.</p>
+
+              <a href = "/buynow"><button>Buy Now</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                   <div class="title"> Rotary tiller</div>
+                     <img src="https://images.tractorgyan.com/uploads/26675/62d6553e18f84_rotary-tiller.webp" height="150" alt="" />
+                    <p>Rotary tiller, which is a crucial farming tool for carrying out all agricultural tasks. To prepare the soil for planting, it features curved tines that are attached to a revolving shaft.</p>
+
+                    <a href = "/buynow"><button>Buy Now</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="title"> Baler</div>
+                     <img src="https://images.tractorgyan.com/uploads/26670/62d654f9e622b_baler.webp" height="150" alt="" />
+                    <p>A baler or hay baler is a type of farm equipment. It can be used to compress a crop that has been cut and raked  into a small, transportable bale.</p>
+
+                    <a href = "/buynow"><button>Buy Now</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                   <div class="title">Tractors</div>
+                     <img src="https://www.sonalika.com/media/product-thumbnail/tiger-75--1639819517.png" height="150" alt="" />
+                    <p>We provide tractors for rental to farmers for diffrent purposes like transportation etc.....</p>
+
+                <a href = "/buynow"><button>Buy Now</button></a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
